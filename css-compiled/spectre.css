@@ -477,7 +477,7 @@ input:disabled + .form-icon, input.disabled + .form-icon { background: #f0f1f4; 
 
 .label.label-primary { background: #1A73EC; color: #fff; }
 
-.label.label-secondary { background: #8C44AB; color: #1A73EC; }
+.label.label-secondary { background: #f1f1fc; color: #5755d9; }
 
 .label.label-success { background: #32b643; color: #fff; }
 

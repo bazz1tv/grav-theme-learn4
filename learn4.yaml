@@ -2,8 +2,8 @@ enabled: true
 production-mode: false
 grid-size: grid-lg
 github:
-  note: true
-  link: true
+  note: false
+  link: false
   tree: https://github.com/getgrav/grav-learn/blob/develop/
   commits: https://github.com/getgrav/grav-learn/commits/develop/
 spectre:

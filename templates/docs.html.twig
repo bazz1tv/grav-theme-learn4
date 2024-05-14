@@ -13,5 +13,7 @@
 
     {% include 'partials/page.html.twig' %}
 
-    {% include 'partials/github-note.html.twig' %}
+    {% if theme_var('github.note') %}
+        {% include 'partials/github-note.html.twig' %}
+    {% endif %}
 {% endblock %}

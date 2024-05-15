@@ -1,6 +1,6 @@
 enabled: true
 production-mode: false
-grid-size: grid-lg
+grid-size: grid-xl
 github:
   note: false
   link: false

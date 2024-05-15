@@ -1,5 +1,6 @@
 html {
     @include fluid-type($size-xs, $size-xl, $min-responsive-font-size, $html-font-size);
+    scroll-padding-top: 41.5px;
 }
 
 body {

@@ -234,6 +234,24 @@ ul ol, ol ol { list-style-type: decimal; }
 
 ul li, ol li { padding-top: 0; }
 
+ul li::marker {
+	font-family: forkawesome;
+	font-size: 0.75rem;
+	content: "\f0da         ";
+}
+
+ul li ul li::marker {
+	font-family: forkawesome;
+	font-size: 0.70rem;
+	content: "\f105         ";
+}
+
+ul li ul li ul li::marker {
+	font-family: forkawesome;
+	font-size: 0.60rem;
+	content: "\f101         ";
+}
+
 .button-primary { background: #1A73EC; border-color: #136be4; color: #fff !important; }
 
 .button-primary:focus, .button-primary:hover { background: #1267da; border-color: #1160cc; color: #fff; }

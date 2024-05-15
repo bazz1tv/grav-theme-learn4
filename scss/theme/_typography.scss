@@ -151,6 +151,30 @@ ul, ol {
     }
 }
 
+ul {
+    li::marker {
+        font-family: forkawesome;
+        font-size: 0.75rem;
+        content: "\f0da         ";
+    }
+
+    li ul {
+        li::marker {
+            font-family: forkawesome;
+            font-size: 0.70rem;
+            content: "\f105         ";
+        }
+
+        li ul {
+            li::marker {
+                font-family: forkawesome;
+                font-size: 0.60rem;
+                content: "\f101         ";
+            }
+        }
+    }
+}
+
 .button-primary {
     @include button-primary;
   }
